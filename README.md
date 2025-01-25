@@ -11,5 +11,7 @@ Password：RTCC
 The training weights on DroneRGBT Dataset:https://pan.baidu.com/s/1LaWSKaO0959BMk1amHPWjg?pwd=DRCC 
 Password：DRCC
 
+The results of the estimated crowd density maps on RGBTCC Dataset: https://pan.baidu.com/s/1T9l3oV0RkdPpD9oZoWelgg?pwd=RDMI 
+Password：RDMI
 
 The code is made public after the article is accepted
