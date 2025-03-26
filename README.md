@@ -2,9 +2,6 @@
 
 M3-Lite: Multi-Modality Mask-Supervised Lightweight Network for RGB-Thermal Crowd Counting
 
-![image](https://github.com/user-attachments/assets/1d6b116c-455d-40d6-8b5f-d32426fad3f2)
-![image](https://github.com/user-attachments/assets/fb31c20f-d9c3-45ad-abcc-344f7b113006)
-
 
 
 
@@ -19,3 +16,6 @@ The results of the estimated crowd density maps on RGBTCC Dataset: https://pan.b
 Password：RDMI
 
 The code is made public after the article is accepted
+
+![image](https://github.com/user-attachments/assets/b56684ac-8e79-4923-bbd1-9be87701d000)
+![image](https://github.com/user-attachments/assets/fb31c20f-d9c3-45ad-abcc-344f7b113006)
