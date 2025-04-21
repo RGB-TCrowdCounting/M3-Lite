@@ -20,9 +20,9 @@ warnings.filterwarnings("ignore")
 
 
 
-class HIAFM(nn.Module):
+class SHAFM(nn.Module):
     def __init__(self, in_C, out_C):
-        super(HIAFM, self).__init__()
+        super(SHAFM, self).__init__()
         down_factor = in_C//out_C
 
         self.DWT = DTCWTForward(J=1, biort='near_sym_b', qshift='qshift_b')
