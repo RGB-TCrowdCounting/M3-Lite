@@ -5,7 +5,7 @@ M3-Lite: Multi-Modality Mask-Supervised Lightweight Network for RGB-Thermal Crow
 ## 20250421 
 Correct uploading module code errors
 
-
+## Model weights
 The M3-Lite weights on RGBTCC Dataset：https://pan.baidu.com/s/1WA3S0MbkA2-YJsMjOfXisA?pwd=RTCC 
 Password：RTCC
 
@@ -18,5 +18,6 @@ Password：RDMI
 
 The code is made public after the article is accepted
 
+## Lightweight performance
 ![image](https://github.com/user-attachments/assets/b56684ac-8e79-4923-bbd1-9be87701d000)
 ![image](https://github.com/user-attachments/assets/fb31c20f-d9c3-45ad-abcc-344f7b113006)
