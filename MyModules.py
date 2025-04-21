@@ -20,9 +20,9 @@ warnings.filterwarnings("ignore")
 
 
 
-class IDEMHSF(nn.Module):
+class HIAFM(nn.Module):
     def __init__(self, in_C, out_C):
-        super(IDEMHSF, self).__init__()
+        super(HIAFM, self).__init__()
         down_factor = in_C//out_C
 
         self.DWT = DTCWTForward(J=1, biort='near_sym_b', qshift='qshift_b')
@@ -71,13 +71,13 @@ class IDEMHSF(nn.Module):
         feat=self.fuse_main3(a)
         return feat
 
-class IDEMLFF(nn.Module):
+class MIAFM(nn.Module):
     def __init__(self, in_C, out_C):
-        super(IDEMLFF, self).__init__()
+        super(MIAFM, self).__init__()
         down_factor = in_C//out_C
 
-        self.DWT = DTCWTForward(J=1, biort='near_sym_b', qshift='qshift_b')
-        self.IWT = DTCWTInverse(biort='near_sym_b', qshift='qshift_b')
+        # self.DWT = DTCWTForward(J=1, biort='near_sym_b', qshift='qshift_b')
+        # self.IWT = DTCWTInverse(biort='near_sym_b', qshift='qshift_b')
 
         self.fuse_down_mul = BasicConv2d(in_C, in_C, 3, 1, 1)
         self.fuse_down_mul2 = BasicConv2d(2*in_C, out_C, 3, 1, 1)
