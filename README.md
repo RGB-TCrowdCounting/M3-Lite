@@ -2,7 +2,8 @@
 
 M3-Lite: Multi-Modality Mask-Supervised Lightweight Network for RGB-Thermal Crowd Counting
 
-
+## 20250421 
+Correct uploading module code errors
 
 
 The M3-Lite weights on RGBTCC Dataset：https://pan.baidu.com/s/1WA3S0MbkA2-YJsMjOfXisA?pwd=RTCC 
